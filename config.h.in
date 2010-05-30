@@ -1,0 +1,9 @@
+/* The version string. */
+#define VERSION @VERSION@
+#define PROJECT_NAME @PROJECT_NAME@
+
+/* Define if you have getopt.h */
+#undef HAVE_GETOPT_H
+
+#undef HAVE_UNISTD_H
+

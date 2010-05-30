@@ -1,0 +1,74 @@
+-----
+Copyright (C) 2010 Riccardo Cecolin (c2epub)
+Copyright (C) 1999 - 2006 Florian Schintke (c2html)
+
+This is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free
+Software Foundation; either version 2, or (at your option) any later
+version.
+
+This is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+for more details.
+
+You should have received a copy of the GNU General Public License with
+the c2epub source package as the file LICENSE.  If not, write to the
+Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
+02111-1307, USA.
+-----
+
+c2epub
+======
+
+Where to get c2epub?
+--------------------
+
+The c2epub project page is:
+http://www.rikiji.it/
+
+Also on GitHub:
+http://www.github.com/rikiji
+
+
+What is c2epub? 
+---------------
+
+c2epub is a tool able to generate ebooks in the EPUB format packaging
+c source code. It is different from other epub generating software since
+default font of generated ebooks is a fixed width one, blank lines, 
+spaces, tabs are preserved and it provides C syntax highlight. You can
+choose to package a group of source files together or processthem one 
+by one creating different epubs.
+
+
+Who wrote c2epub?
+-----------------
+
+EPUB related code is written by Riccardo Cecolin, http://www.rikiji.it .
+c2epub is based on c2html by Florian Schintke, which provides syntax
+highlight and html escaping features.
+By using c2epub you are solely responsible for any content that you
+create or distribute using c2epub and for the consequences of your
+actions by doing so.
+
+
+How can i use c2epub? 
+---------------------
+
+Run it with -h to get the usage help. Default is single output file, no syntax
+
+usage: c2epub [options] [source files...]
+source files have to be in the same directory you run c2epub.
+  -t title package title (output filename base)
+  -g       enable grayscale
+  -m       multiple files output
+  -h       print this help
+  -v       print version information
+
+
+Where to get c2html?
+--------------------
+The homepage of c2html is
+http://user.cs.tu-berlin.de/~schintke/x2html/index.html
+
