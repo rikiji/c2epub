@@ -25,10 +25,10 @@ Where to get c2epub?
 --------------------
 
 The c2epub project page is:
-http://www.rikiji.it/
+http://www.rikiji.it/post/15
 
 Also on GitHub:
-http://www.github.com/rikiji
+http://github.com/rikiji/c2epub
 
 
 What is c2epub? 
@@ -36,16 +36,16 @@ What is c2epub?
 
 c2epub is a tool able to generate ebooks in the EPUB format packaging
 c source code. It is different from other epub generating software since
-default font of generated ebooks is a fixed width one, blank lines, 
+default font of generated ebooks is a fixed width one. Blank lines, 
 spaces, tabs are preserved and it provides C syntax highlight. You can
-choose to package a group of source files together or processthem one 
+choose to package a group of source files together or process them one 
 by one creating different epubs.
 
 
 Who wrote c2epub?
 -----------------
 
-EPUB related code is written by Riccardo Cecolin, http://www.rikiji.it .
+EPUB related code is written by Riccardo Cecolin, http://www.rikiji.it
 c2epub is based on c2html by Florian Schintke, which provides syntax
 highlight and html escaping features.
 By using c2epub you are solely responsible for any content that you
@@ -56,7 +56,8 @@ actions by doing so.
 How can i use c2epub? 
 ---------------------
 
-Run it with -h to get the usage help. Default is single output file, no syntax
+Run it with -h to get the usage help. Default is single output file,
+no syntax highlight
 
 usage: c2epub [options] [source files...]
 source files have to be in the same directory you run c2epub.
